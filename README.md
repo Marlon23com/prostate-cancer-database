@@ -1,24 +1,24 @@
 # Prostate Cancer Database Management System
 
-This project focuses on designing and managing a relational database for prostate cancer patient data. It includes the database schema, sample records, query scripts, and database diagrams used to model a healthcare information system.
+This project involved designing a relational database for prostate cancer patient management, using structured clinical data to model key healthcare workflows. The repository includes the full schema, sample data, SQL queries, and ER diagrams developed for a realistic hospital and patient-record system.
 
 ## Project overview
 
-The database is structured to support key clinical and administrative functions, including:
+The database was designed to support essential clinical and administrative functions, including:
 - patient and user records
 - diagnosis and cancer staging
-- lab tests and results
+- lab test and result tracking
 - treatments and care plans
-- hospital and doctor information
-- appointment tracking
+- doctor and hospital information management
+- appointment scheduling and patient follow-up
 
-This work demonstrates database design, schema creation, relationship modeling, and practical use of SQL for healthcare data management.
+This project highlights data modeling, relationship design, normalization, and SQL implementation in a healthcare context, demonstrating practical database management skills relevant to data-driven biomedical research.
 
 ## Included files
 - `prostate_cancer_db.sql` — main database creation script
-- `prostate_cancer_db_schema_forward_engineered_script.sql` — forward-engineered schema
+- `prostate_cancer_db_schema_forward_engineered_script.sql` — forward-engineered database schema
 - `script_for_inserting_sample_data.sql` — sample data insertion script
-- `script_for_querying_data.sql` — example SQL queries
-- `ER diagram updated.png` — refined entity relationship diagram
-- `ER diagram before forward engineering.png` — earlier design version
-- `reverse_engineered_version_ER_diagram.png` — reverse-engineered ER diagram
+- `script_for_querying_data.sql` — example SQL queries for database use
+- `ER diagram updated.png` — final entity relationship diagram
+- `ER diagram before forward engineering.png` — earlier design iteration
+- `reverse_engineered_version_ER_diagram.png` — reverse-engineered ER model
